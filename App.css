@@ -1,0 +1,57 @@
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.yes-button {
+  font-family: "serif", garamond;
+  background-color: hsl(286, 37%, 69%); 
+  color: #fff; 
+  font-weight: Bold; 
+  padding: 8px 16px; 
+  border-radius: 8px; 
+  margin-right: 8px; 
+}
+
+.yes-button:hover {
+  background-color: hsl(134, 17%, 56%);
+}
+
+
+.no-button {
+  background-color: hwb(249 6% 10%));
+  color: hwb(123 1% 2%); 
+  font-weight: 300 ; 
+  padding: 8px 16px; 
+  border-radius: 8px; 
+}
+
+.no-button:hover {
+  background-color: hwb(304 9% 69%);
+}
+
+.text-container {
+  font-size: 2.25rem; 
+  margin-top: 1rem; 
+  margin-bottom: 1rem; 
+
+.centered-container {
+  display: flex;
+  font-size: Medium;
+  font-family: "Serif", Garamond;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  height: 100vh;
+  margin: 0;
+}
+
+.github-link {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+}
